@@ -1,0 +1,53 @@
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    margin: 20px;
+    cursor: pointer;
+}
+  
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+  
+.card h3 {
+    margin: 0;
+    font-size: 24px;
+}
+  
+.card p {
+    margin: 0;
+    font-size: 16px;
+}
+  
+.card a {
+    text-decoration: none;
+    color: #000;
+}
+  
+.card button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 20px;
+    outline: none;
+    transition: transform 0.2s ease-in-out;
+}
+  
+.card button:hover {
+    transform: scale(1.2);
+}
+  
+.card button:active {
+    transform: scale(1);
+}
+  
+.fa-heart {
+    color: #ff5722;
+}

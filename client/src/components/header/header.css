@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "logoFont";
+  src: url("../../assets/fonts/fibel-sued.ttf");
+}
+
+.header {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #60D6A7;
+  height: 80px;
+  padding: 0 20px;
+}
+  
+
+
+
+
+img {
+  padding-bottom: 8px;
+  width: 150px;
+  height: auto;
+}
+
+.menuBar{
+  display: flex;
+  list-style: none;
+  justify-content: right;
+  padding-right: 20px;
+  padding-left: 10px;
+  color: #ffffff;
+
+}
+
+
+.navbarButton{
+  display: flex;
+  padding: 10px 20px;
+  background-color: #23604e;
+  color: #ffffff;
+  font-family: "logoFont";
+  text-decoration: none;
+  font-size: 24px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin-right: 20px;
+}
+
+.navbarButton:hover {
+  opacity: 0.8;
+}
+
+.navbarButton:focus {
+  outline: none;
+}
+
+.navbarButton:active {
+  transform: scale(0.9);
+}

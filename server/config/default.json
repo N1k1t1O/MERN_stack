@@ -1,0 +1,5 @@
+{
+    "serverPort" : 5000,
+    "dbURL" : "mongodb+srv://admin123:admin123@kursach.fjsngu6.mongodb.net/?retryWrites=true&w=majority",
+    "secretKey": "kursach-key-3"
+}
